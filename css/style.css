@@ -67,15 +67,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #4a1f5c; }
 
 ::-moz-selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #4a1f5c; }
 
 ::selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #4a1f5c; }
 
 #colorlib-page {
   width: 100%;
@@ -149,7 +149,7 @@ figure {
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
-        #colorlib-aside #colorlib-main-menu ul li a {
+#colorlib-aside #colorlib-main-menu ul li a {
           color: rgba(0, 0, 0, 0.7);
           text-decoration: none;
           position: relative;
@@ -158,14 +158,14 @@ figure {
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
-          #colorlib-aside #colorlib-main-menu ul li a:after {
+#colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
             height: 1px;
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #2c98f0;
+            background-color: #7ecaaa;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -188,7 +188,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #2c98f0; }
+          color: #7ecaaa; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -274,16 +274,18 @@ figure {
         display: block;
         margin-bottom: 10px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
-          background: rgba(0, 0, 0, 0.5);
+          background: white;
           -webkit-box-shadow: none;
           box-shadow: none;
           width: 12px;
           height: 12px;
-          cursor: pointer; }
-          #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
+          cursor: pointer;
+          background: transparent;
+            border: 2px solid #aa3173;  }
+#colorlib-hero .flexslider .flex-control-nav li a.flex-active {
+            background: white;
             cursor: pointer;
-            background: transparent;
-            border: 2px solid #2c98f0; }
+             }
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
     #colorlib-hero .flexslider .slider-text {
@@ -344,12 +346,13 @@ figure {
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #4a1f5c;
             background: #7ecaaa !important; }
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
-              background: #7ecaaa !important;
-              border: 1px solid #000 !important; }
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+              background: #4a1f5c !important;
+              color:white;
+               }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -473,7 +476,7 @@ body.offcanvas {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
-  background-color: #2c98f0;
+  background-color: #4a1f5c;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -958,12 +961,12 @@ body.offcanvas {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
-    .project .desc .con {
+.project .desc .con {
       padding: 20px;
       display: block;
       position: relative;
       height: 300px; }
-      .project .desc .con .icon {
+.project .desc .con .icon {
         position: absolute;
         bottom: 20px;
         left: 20px;
@@ -974,7 +977,7 @@ body.offcanvas {
           .project .desc .con .icon span a {
             color: #333333;
             padding: 5px;
-            background: rgba(255, 255, 255, 0.5);
+            background: pink;
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
@@ -1197,9 +1200,9 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #2c98f0;
+  background:#4a1f5c;
   color: #fff;
-  border: 2px solid #2c98f0; }
+  border: 2px solid #4a1f5c; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #44a4f2 !important;
     border-color: #44a4f2 !important; }
