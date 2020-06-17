@@ -89,6 +89,27 @@ figure {
   color: #fff;
   background: #4a1f5c; }
 
+
+
+
+  .title {
+    font-size:100px;
+    font-family:anti;
+    color:black;
+    text-align: center;
+  }
+
+  .fourcolumn {
+    display:grid;
+    grid-template-columns: 100% 30px 30px auto;
+    grid-template-rows: auto auto auto;
+    width:60%;
+    margin:auto;
+  }
+  .fourcolumn img{
+    width:auto;
+  }
+
 #colorlib-page {
   width: 100%;
   overflow: hidden;
