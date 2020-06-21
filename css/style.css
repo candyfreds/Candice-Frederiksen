@@ -49,7 +49,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: anti, serif;
   font-weight: 400;
-  margin: 0 0 0 0; }
+  margin: 0 0 0 0;
+   }
+
+
 
   .portland {
     font-family:antilight, serif;
@@ -625,6 +628,8 @@ body.offcanvas {
 .colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
+  padding-left:2em;
+  padding-right:2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -1259,8 +1264,7 @@ img.stuff  {
         color: #000; }
     @media screen and (max-width: 768px) {
       .project .desc {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
+  }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
